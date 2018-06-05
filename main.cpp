@@ -16,7 +16,7 @@ int main() {
 			//getline only takes string;
 			file >> mass;	
 			file.ignore();	//ignore '\n'
-			cout << "Map[" << element << "] = " << mass << ";" << endl;
+			cout << "mapTable[\"" << element << "\"] = " << mass << ";" << endl;
 		}
 	}
 
